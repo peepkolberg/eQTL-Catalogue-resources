@@ -979,3 +979,9 @@ Schmiedel_2018	CD8_T-cell_anti-CD3-CD28	majiq	QTS000026	QTD001211
 Schmiedel_2018	monocyte_CD16_naive	majiq	QTS000026	QTD001212
 Schmiedel_2018	monocyte_naive	majiq	QTS000026	QTD001213
 Schmiedel_2018	NK-cell_naive	majiq	QTS000026	QTD001214
+GainS	leukocyte	ge	QTS000062	QTD001271
+GainS	leukocyte	exon	QTS000062	QTD001272
+GainS	leukocyte	tx	QTS000062	QTD001273
+GainS	leukocyte	txrev	QTS000062	QTD001274
+GainS	leukocyte	leafcutter	QTS000062	QTD001275
+GainS	leukocyte	majiq	QTS000062	QTD001276
