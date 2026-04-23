@@ -662,9 +662,9 @@ QTS000032	QTD001255	Aygun_2021	Progenitor	CL_0011020	neural progenitor	naive	85	
 QTS000032	QTD001256	Aygun_2021	Neuron	CL_0000540	neuron	naive	73	majiq	34416157	bulk
 QTS000033	QTD001257	PISA	pancreatic_islet	UBERON_0000006	pancreatic islet	naive	127	majiq	33264613	bulk
 QTS000034	QTD001258	Walker_2019	Neocortex	UBERON_0001950	neocortex	naive	211	majiq	31626773	bulk
-QTS000062	QTD001271	GAinS	leukocytes	NA	leukocytes	sepsis	630	ge	NA	bulk
-QTS000062	QTD001272	GAinS	leukocytes	NA	leukocytes	sepsis	630	exon	NA	bulk
-QTS000062	QTD001273	GAinS	leukocytes	NA	leukocytes	sepsis	630	tx	NA	bulk
-QTS000062	QTD001274	GAinS	leukocytes	NA	leukocytes	sepsis	630	txrev	NA	bulk
-QTS000062	QTD001275	GAinS	leukocytes	NA	leukocytes	sepsis	630	leafcutter	NA	bulk
-QTS000062	QTD001276	GAinS	leukocytes	NA	leukocytes	sepsis	630	majiq	NA	bulk
+QTS000062	QTD001271	GAinS	leukocyte	CL_0000738	leukocyte	sepsis	630	ge	38897207	bulk
+QTS000062	QTD001272	GAinS	leukocyte	CL_0000738	leukocyte	sepsis	630	exon	38897207	bulk
+QTS000062	QTD001273	GAinS	leukocyte	CL_0000738	leukocyte	sepsis	630	tx	38897207	bulk
+QTS000062	QTD001274	GAinS	leukocyte	CL_0000738	leukocyte	sepsis	630	txrev	38897207	bulk
+QTS000062	QTD001275	GAinS	leukocyte	CL_0000738	leukocyte	sepsis	630	leafcutter	38897207	bulk
+QTS000062	QTD001276	GAinS	leukocyte	CL_0000738	leukocyte	sepsis	630	majiq	38897207	bulk
