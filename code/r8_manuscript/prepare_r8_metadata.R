@@ -18,3 +18,9 @@ all_meta2 = dplyr::bind_rows(r7_filtered, r8_beta_metadata, upcoming_metadata)
 r8_meta = dplyr::filter(all_meta2, dataset_id %in% dataset_list$dataset_id) %>% 
   dplyr::arrange(study_id, dataset_id)
 write.table(r8_meta, "data_tables/dataset_metadata_r8.tsv", sep = "\t", quote = F, row.names = F)
+
+#Add IBDverse pmid
+d = readr::read_tsv("data_tables/dataset_metadata_r8.tsv") %>%
+  dplyr::mutate(pmid = ifelse(study_label == "IBDverse", 42236949, pmid))
+write.table(d, "data_tables/dataset_metadata_r8.tsv", sep = "\t", quote = F, row.names = F)
+
